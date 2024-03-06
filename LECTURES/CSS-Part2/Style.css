@@ -13,3 +13,36 @@ h1,h3{
 .upvote{
     background-color: violet;
 }
+
+/* Descendant Selector */
+p a {
+    color: violet;
+}
+
+/* Adjacent Sibling Combinator */
+p + h3{
+    text-decoration: underline;
+}
+
+/* Child Combinator */
+div > input{
+    background-color: gray;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    color: red;
+}
+input[type="password"] {
+    color: aqua;
+}
+
+/*hover*/
+button:hover{
+    color: white;
+    background-color: black;
+}
+/*active*/
+button:active{
+    background-color: pink;
+}
